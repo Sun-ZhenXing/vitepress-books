@@ -21,8 +21,8 @@ import { stylizeConfig } from './utils/stylize'
 
 
 const isDev = process.env.npm_lifecycle_event?.endsWith('dev') ?? false
-const HOST = process.env.HOST_URL ?? 'https://blog.alexsun.top'
-const BASE = process.env.BASE_URL ?? '/books/'
+const HOST = process.env.HOST_URL ?? 'https://docs.alexsun.top'
+const BASE = process.env.BASE_URL ?? '/vitepress-books/'
 const REPO = process.env.REPO_URL ?? 'https://github.com/Sun-ZhenXing/vitepress-template'
 
 // https://vitepress.dev/reference/site-config

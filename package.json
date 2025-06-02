@@ -8,9 +8,13 @@
     "preview": "vitepress preview docs",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "cdn": "tsx tools/refresh-cdn-caches.ts"
   },
   "devDependencies": {
+    "@alicloud/cdn20180510": "^5.0.0",
+    "@alicloud/openapi-client": "^0.4.14",
+    "@alicloud/tea-util": "^1.4.10",
     "@braintree/sanitize-url": "^7.1.1",
     "@mdit/plugin-align": "^0.21.0",
     "@mdit/plugin-attrs": "^0.21.0",
@@ -36,6 +40,7 @@
     "mermaid": "^10.9.3",
     "sass-embedded": "^1.89.1",
     "tailwindcss": "^4.1.8",
+    "tsx": "^4.19.4",
     "vite": "npm:rolldown-vite@6.3.14",
     "vite-plugin-vitepress-auto-sidebar": "^1.7.1",
     "vitepress": "^1.6.3",

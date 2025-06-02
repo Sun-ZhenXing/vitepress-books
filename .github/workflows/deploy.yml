@@ -40,3 +40,9 @@ jobs:
         with:
           branch: gh-pages
           folder: docs/.vitepress/dist
+
+      - name: Refresh CDN
+        run: pnpm cdn
+        env:
+          ALIBABA_CLOUD_ACCESS_KEY_ID: ${{ secrets.ALIBABA_CLOUD_ACCESS_KEY_ID }}
+          ALIBABA_CLOUD_ACCESS_KEY_SECRET: ${{ secrets.ALIBABA_CLOUD_ACCESS_KEY_SECRET }}
