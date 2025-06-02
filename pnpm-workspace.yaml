@@ -1,2 +1,2 @@
-overrides:
-  vite: 'npm:rolldown-vite@^6.3.15'
+# overrides:
+#   vite: 'npm:rolldown-vite@^6.3.15'

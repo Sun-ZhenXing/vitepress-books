@@ -173,6 +173,9 @@ export default withMermaid({
   },
 
   vite: {
+    experimental: {
+      // enableNativePlugin: true,
+    },
     plugins: [
       tailwindcss() as any,
       AutoSidebarPlugin({
