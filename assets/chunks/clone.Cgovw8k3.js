@@ -1,0 +1,1 @@
+import{_baseClone_default as e}from"./graphlib.B5VBQ7js.js";var t=4;function n(n){return e(n,t)}var r=n;export{r as clone_default};

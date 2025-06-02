@@ -1,0 +1,1 @@
+import{color_default as e,utils_default as t}from"./mermaid-b5860b54.7bkKHyOp.js";const n=(n,r)=>t.lang.round(e.parse(n)[r]);var r=n;export{r as channel_default};
