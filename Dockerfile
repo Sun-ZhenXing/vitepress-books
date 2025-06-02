@@ -1,6 +1,6 @@
 ARG NODE_VERSION=22.14.0
 ARG NPM_REGISTER=https://registry.npmjs.org
-ARG BASE_URL=/vitepress-template/
+ARG BASE_URL=/books/
 
 # Builder
 FROM node:${NODE_VERSION}-bookworm AS builder

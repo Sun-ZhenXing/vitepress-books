@@ -1,5 +1,5 @@
 {
-  "name": "vitepress-template",
+  "name": "vitepress-books-docs",
   "type": "module",
   "private": true,
   "scripts": {
